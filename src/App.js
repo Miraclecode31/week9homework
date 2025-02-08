@@ -1,5 +1,3 @@
-// In App.js
-
 import React, { useState } from 'react';
 import SongList from './components/SongList';
 import SongPlayer from './components/SongPlayer';
@@ -14,9 +12,7 @@ function App() {
 
   return (
     <div className="App">
-      {/* Apply the header class for styling */}
       <h2 className="header">GRAMMY AWARD WINNING SONGS</h2>
-
       <SongList onSongSelect={handleSongSelect} />
       <SongPlayer song={selectedSong} />
     </div>

@@ -1,13 +1,4 @@
-import React, { useState } from 'react';
-
 const SongPlayer = ({ song }) => {
-  const [isPlaying, setIsPlaying] = useState(false);
-  
-  // This function can be removed if you no longer want play/pause functionality
-  const togglePlay = () => {
-    setIsPlaying(!isPlaying);
-  };
-
   if (!song) return null;
 
   const { youtubeUrl } = song;
@@ -25,11 +16,6 @@ const SongPlayer = ({ song }) => {
         allowFullScreen
         title={song.title}
       ></iframe>
-      
-      {/* Remove the button that controls play/pause */}
-      {/* <button onClick={togglePlay}>
-        {isPlaying ? 'Pause' : 'Play'}
-      </button> */}
     </div>
   );
 };
