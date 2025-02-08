@@ -68,3 +68,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## github steps
+GitHub Steps
+
+'git status' - gives you the status of all the files in your local repo
+'git add <filename>' (use '.' to add all files) - add all of your files to staging
+'git commit -m "COMMIT MESSAGE GOES HERE" -> Adds a message to your commit
+'git push' -> pushes code from your local repo to your remote repo (local=your computer, remote=github)
+
+** If it is your first time pushing to the remote repository then you will need to do a 'git push -u origin <branch_name>'
