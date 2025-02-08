@@ -9,7 +9,8 @@ const songsData = [
   {
     title: 'Not Like Us',
     artist: 'Kendrick Lamar',
-    youtubeUrl: 'https://www.youtube.com/embed/YOUR_VIDEO_ID_HERE',
+    // youtubeUrl: 'https://youtu.be/T6eK-2OQtew?si=3glqocp7abBPy-8B',
+    youtubeUrl: 'https://www.youtube.com/embed/T6eK-2OQtew',
   },
   {
     title: 'Bad Guy',
